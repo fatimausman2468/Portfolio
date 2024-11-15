@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #pf {
+            position: absolute;
+            right: 340px;
+            top: 175px;
+            height: 320px;
+            width: 400px;
+            box-shadow: 10px 10px 20px rgba(0.5, 0.5, 0.5, 0.5);
+        }
+
+        #hello {
+            position: absolute;
+            left: 285px;
+            top: 160px;
+            font-size: 60px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        #name {
+            position: absolute;
+            left: 285px;
+            top: 275px;
+            font-size: 40px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        #disc {
+            position: absolute;
+            left: 285px;
+            top: 350px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .circle {
+            width: 100px;
+            height: 45px;
+            background-color: white;
+            border-radius: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 16px;
+            color: #333;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+            position: absolute;
+            left: 285px;
+            top: 430px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            box-shadow: 10px 10px 20px rgba(0.5, 0.5, 0.5, 0.2);
+        }
+
+            .circle:hover {
+                transform: scale(1.1);
+            }
+
+        .skills {
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+            position: absolute;
+            left: 500px;
+            bottom: 15px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+            .skills:hover {
+                transform: scale(1.05);
+                color: black;
+            }
+
+        .projects {
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+            position: absolute;
+            left: 630px;
+            bottom: 15px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+            .projects:hover {
+                transform: scale(1.05);
+                color: black;
+            }
+
+        #phone {
+            position: absolute;
+            top: 245px;
+            right: 260px;
+            transition: transform 0.3s ease;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+
+            #phone:hover {
+                transform: scale(1.05);
+                filter: brightness(1.2);
+                box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
+            }
+
+        #insta {
+            position: absolute;
+            top: 300px;
+            right: 260px;
+            transition: transform 0.3s ease;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+
+            #insta:hover {
+                transform: scale(1.05);
+                filter: brightness(1.2);
+                box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
+            }
+
+        #linkedin {
+            position: absolute;
+            top: 360px;
+            right: 260px;
+            transition: transform 0.3s ease;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+
+            #linkedin:hover {
+                transform: scale(1.05);
+                filter: brightness(1.2);
+                box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
+            }
+    </style>
+    <title>My Webpage</title>
+    <style>
+        body {
+            background-image: url('bg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="hello" style="color:white; font-family:'Bradley Hand ITC'">Hello</h2>
+    <h1 id="name" style="color:white; font-family:'Calisto MT'">I'm Fatima</h1>
+    <h3 id="disc" style="color:white">I am a game developer</h3>
+    <img id="pf" src="girl.jpg" alt="female" style="border-radius: 20%;" }>
+    <div class="circle">See More...</div>
+    <a href="https://About_Me.com" target="_blank" class="circle">See More...</a>
+    <a href="subpage.html" class="circle">See More...</a>
+    <a href="subpage2.html" class="skills">my skills</a>
+    <a href="subpage3.html" class="projects">my projects</a>
+    <a id="phone"><img src="telephone.png" style="width: 35px"></a>
+    <a id="insta"><img src="instagram-logo.png" style="width: 35px"></a>
+    <a id="linkedin"><img src="linkedin.png" style="width: 35px"></a>
+</body>
+</html>

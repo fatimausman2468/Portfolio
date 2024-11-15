@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url('bg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+    <style>
+        #edit {
+            position: absolute;
+            height: 200px;
+            width: 300px;
+            top: 130px;
+            right: 260px;
+            box-shadow: 10px 10px 20px rgba(0.5, 0.5, 0.5, 0.4);
+        }
+
+        #write {
+            position: absolute;
+            width: 300px;
+            height: 200px;
+            top: 350px;
+            right: 260px;
+            box-shadow: 10px 10px 20px rgba(0.5, 0.5, 0.5, 0.4);
+        }
+
+        #sk {
+            position: absolute;
+            top: 100px;
+            left: 260px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        #list {
+            position: absolute;
+            top: 229px;
+            left: 230px;
+            font-size: 29px;
+            color: white;
+            font-family: Verdana;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        li {
+            margin-bottom: 13px;
+        }
+
+        .projects {
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+            position: absolute;
+            left: 545px;
+            bottom: 15px;
+            text-shadow: 2px 2px 5px rgba(0.5, 0.5, 0.5, 0.6);
+        }
+
+            .projects:hover {
+                transform: scale(1.05);
+                color: black;
+            }
+
+        #icon {
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            top: 27px;
+            left: 30px;
+            transition: transform 0.3s ease;
+        }
+
+            #icon:hover {
+                transform: scale(1.05);
+                color: black;
+            }
+    </style>
+</head>
+<body>
+    <a id="icon" href="fatima.html"><img src="icon.png" style="width: 50px"></a>
+    <img id="edit" src="editing.jpg" alt="edit">
+    <img id="write" src="writing.jpg" alt="write">
+    <p id="sk" style=" color:white; font-family:'Bradley Hand ITC'; font-size:45px;"> <b>My skills</b></p>
+    <ul id="list">
+        <li>Design</li>
+        <li>Video Editing</li>
+        <li>Writing Scenario</li>
+        <li>Programming</li>
+        <li>Microsoft Office</li>
+    </ul>
+    <a href="subpage3.html" class="projects">my projects</a>
+</body>
+</html>
